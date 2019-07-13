@@ -59,7 +59,7 @@ import javax.swing.*;
         public static void main(String[] args) {
             String pobraneImie = JOptionPane.showInputDialog("jak masz na imię?");
 
-            if ("Piotr".equalsIgnoreCase(pobraneImie)) {
+            if ("Piotr".equalsIgnoreCase(pobraneImie)) { // dupa dupa sram na to wszystko :D
                 System.out.println("Masz 27 lat");
             } else {
                 if ("Grzegorz".equals(pobraneImie)) {
